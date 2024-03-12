@@ -237,6 +237,9 @@ fun convertUnit(){
 
         Text(text = "Result:$outputValue$outputUnit", style = MaterialTheme.typography.headlineLarge)
 }
+    Spacer(modifier = Modifier.heightIn(16.dp))
+
+    Text(text = "This is changed version for trial by Ritesh", style = MaterialTheme.typography.headlineLarge)
 
 }
 
